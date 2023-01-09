@@ -10,4 +10,7 @@
 
 > 어떻게 배워야 하는가?
 
+![image](https://user-images.githubusercontent.com/46777310/211317379-e3f590f2-7bae-4755-bca4-0d43f4c4a8a6.png)
+
+
 [DartPad](https://dartpad.dev/?)를 활용하여 온라인 컴파일러를 통한 개발을 진행하겠다. 설치해도 무관하나 실습을 위한 온라인 컴파일러도 충분하다.

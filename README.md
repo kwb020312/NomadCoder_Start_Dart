@@ -43,6 +43,8 @@ void main() {
 }
 ```
 
+> dynamic
+
 두 번째로 `Dynamic`타입이 있는데, 해당 타입은 동적으로 변경되는 그 어떠한 타입도 수용한다는 의미로, 적극 추천되진 않지만 변수의 타입을 모르는 경우에 유용한 사용이 가능한 자료형이다.
 
 ```dart
@@ -54,6 +56,8 @@ void main() {
   print(name); // Print true
 }
 ```
+
+> ?
 
 세 번째로 `Nullable Variables`가 존재한다. 말 그대로 `null`을 허용하는 타입이란 의미이며, `null`타입은 종종 개발에 필요하기 때문에 이는 반드시 사용할 줄 알아야한다.
 
@@ -68,12 +72,26 @@ void main() {
 }
 ```
 
-마지막으로 `final`타입을 활용해 `JavaScript`의 `const`와 같은 상수를 선언할 수 있다. 해당 타입은 선언될 때만 변수에 값이 할당되며, 이후 타입, 값은 변경할 수 없다.
+> final
+
+`final`타입을 활용해 `JavaScript`의 `const`와 같은 상수를 선언할 수 있다. 해당 타입은 선언될 때만 변수에 값이 할당되며, 이후 타입, 값은 변경할 수 없다.
 
 ```dart
 void main() {
   final name = "Chobby"; // === final String name = "Chobby";
   // name = 12; name is Constant Variable
+  print(name);
+}
+```
+
+> late
+
+`late` 자료형은 다른 타입 앞에 선언되며, 변수를 임시로 등록만 하고 값은 이후에 할당한다는 의미로, 주로 `API`작업에 많이 활용된다.
+
+```dart
+void main() {
+  late final String name;
+  name = "Chobby"; // can assign String value
   print(name);
 }
 ```

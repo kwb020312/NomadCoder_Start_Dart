@@ -66,5 +66,14 @@ void main() {
     name.isNotEmpty;
   }
 }
+```
 
+마지막으로 `final`타입을 활용해 `JavaScript`의 `const`와 같은 상수를 선언할 수 있다. 해당 타입은 선언될 때만 변수에 값이 할당되며, 이후 타입, 값은 변경할 수 없다.
+
+```dart
+void main() {
+  final name = "Chobby"; // === final String name = "Chobby";
+  // name = 12; name is Constant Variable
+  print(name);
+}
 ```

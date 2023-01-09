@@ -12,7 +12,6 @@
 
 ![image](https://user-images.githubusercontent.com/46777310/211317379-e3f590f2-7bae-4755-bca4-0d43f4c4a8a6.png)
 
-
 [DartPad](https://dartpad.dev/?)를 활용하여 온라인 컴파일러를 통한 개발을 진행하겠다. 설치해도 무관하나 실습을 위한 온라인 컴파일러도 충분하다.
 
 > Hello World
@@ -26,4 +25,18 @@ void main() {
   print("Hello World");
 }
 
+```
+
+> Type
+
+`Dart`의 `Type`지정은 매우 간단하다 `var` 혹은 `String`과 같은 타입 명시가 가능하며 `var`로 타입을 지정해도 `Dart`내부에서 타입을 인지하기 때문에 무엇으로 사용하던 큰 상관은 없다
+
+```dart
+void main() {
+  var name = "Chobby!";
+  name = "KimChobby!";
+  String name2 = "Rony!";
+  // Doesn't Work  name2 = (Int Value)
+  print(name+name2);
+}
 ```

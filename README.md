@@ -42,3 +42,15 @@ void main() {
   print(name+name2);
 }
 ```
+
+두 번째로 `Dynamic`타입이 있는데, 해당 타입은 동적으로 변경되는 그 어떠한 타입도 수용한다는 의미로, 적극 추천되진 않지만 변수의 타입을 모르는 경우에 유용한 사용이 가능한 자료형이다.
+
+```dart
+void main() {
+  dynamic name;
+  name = 12;
+  name = "Chobby";
+  name = true;
+  print(name); // Print true
+}
+```

@@ -11,3 +11,14 @@
 > 어떻게 배워야 하는가?
 
 [DartPad](https://dartpad.dev/?)를 활용하여 온라인 컴파일러를 통한 개발을 진행하겠다. 설치해도 무관하나 실습을 위한 온라인 컴파일러도 충분하다.
+
+> Hello World
+
+`Hello World`는 아래와 같이 출력하며 다른 언어와 같이 `main`함수에서 동작한다.
+
+```dart
+void main() {
+  print("Hello World");
+}
+
+```

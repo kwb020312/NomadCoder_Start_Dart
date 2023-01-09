@@ -17,6 +17,8 @@
 
 > Hello World
 
+![image](https://user-images.githubusercontent.com/46777310/211317952-da7760b5-ee46-43f8-9c0f-3d8c9b8e3cd0.png)
+
 `Hello World`는 아래와 같이 출력하며 다른 언어와 같이 `main`함수에서 동작한다.
 
 ```dart

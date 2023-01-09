@@ -54,3 +54,17 @@ void main() {
   print(name); // Print true
 }
 ```
+
+세 번째로 `Nullable Variables`가 존재한다. 말 그대로 `null`을 허용하는 타입이란 의미이며, `null`타입은 종종 개발에 필요하기 때문에 이는 반드시 사용할 줄 알아야한다.
+
+```dart
+void main() {
+  String? name = "Chobby"; // It Might String OR Null
+  name = null;
+  name?.isEmpty; // name? mean is not Null
+  if(name is String) { // means not Null
+    name.isNotEmpty;
+  }
+}
+
+```

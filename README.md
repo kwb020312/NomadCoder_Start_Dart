@@ -29,6 +29,8 @@ void main() {
 
 > Type
 
+![image](https://user-images.githubusercontent.com/46777310/211319278-3afec31b-256c-4852-a557-94ff5e4b0053.png)
+
 `Dart`의 `Type`지정은 매우 간단하다 `var` 혹은 `String`과 같은 타입 명시가 가능하며 `var`로 타입을 지정해도 `Dart`내부에서 타입을 인지하기 때문에 무엇으로 사용하던 큰 상관은 없다
 
 ```dart

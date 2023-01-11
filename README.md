@@ -107,3 +107,19 @@ void main() {
   print(name);
 }
 ```
+
+> 자료형들
+
+`dart`의 자료형들이다.
+
+```dart
+void main() {
+  String name = "Chobby"; // String
+  bool flag = true; // boolean
+  int age = 22; // integer
+  double dollar = 3.99; // double
+  num x = 12;
+  x = 1.2; // integer OR double
+}
+
+```

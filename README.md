@@ -95,3 +95,15 @@ void main() {
   print(name);
 }
 ```
+
+> const
+
+`const`자료형은 `final`자료형과 같이 상수를 선언하고, 선언된 변수에는 다른 값을 할당할 수 없다.
+
+```dart
+void main() {
+  const name = "chobby"; // like final
+  name = 12; // Throw Error!
+  print(name);
+}
+```
